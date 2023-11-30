@@ -1,0 +1,1 @@
+SqlCmd -SPC1\SQLEXPRESS -Uadmin -Padmin -Q "BACKUP DATABASE DATABASE_Name TO DISK ='D:\AutoSQLData\SqlBackup_%date:~-10,2%-%date:~-7,2%-%date:~-4,4%-%time:~0,2%_%time:~3,2%_%time:~6,2%.bak'"
